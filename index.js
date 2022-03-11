@@ -9,5 +9,5 @@ app.use(bodyParser.urlencoded({ extended: false }));
 const PORT = 3000;
 
 app.listen(PORT, () => {
-  console.log(`Port: ${PORT}`);
+  console.log(`Rodando na porta http://localhost:${PORT}`);
 });
