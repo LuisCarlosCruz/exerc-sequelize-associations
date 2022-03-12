@@ -7,36 +7,52 @@ module.exports = {
       [
         {
           specialty: 'Apendicectomia',
-          doctor: 'Rey Dos Santos'
+          doctor: 'Rey Dos Santos',
+          createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+          updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
         },
         {
           specialty: 'Cistectomia',
-          doctor: 'Marcos Afonso'
+          doctor: 'Marcos Afonso',
+          createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+          updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
         },
 
         {
           specialty: 'Colecistectomia',
-          doctor: 'Iuri Solto'
+          doctor: 'Iuri Solto',
+          createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+          updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
         },
         {
           specialty: 'Craniectomia',
-          doctor: 'Marilene Tobias'
+          doctor: 'Marilene Tobias',
+          createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+          updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
         },
         {
           specialty: 'Gastrorrafia',
-          doctor: 'Joana Machado'
+          doctor: 'Joana Machado',
+          createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+          updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
         },
         {
           specialty: 'Herniorrafia',
-          doctor: 'Lincoln Mathias'
+          doctor: 'Lincoln Mathias',
+          createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+          updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
         },
         {
           specialty: 'Hisperopexia',
-          doctor: 'Alessandra Martins'
+          doctor: 'Alessandra Martins',
+          createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+          updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
         },
         {
           specialty: 'Cistoscopia',
-          doctor: 'Adailton Rodrigues'
+          doctor: 'Adailton Rodrigues',
+          createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+          updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
         },
       ],
       {}
