@@ -3,7 +3,11 @@ const Plan = (sequelize, DataTypes) => {
     plan_id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
     coverage: DataTypes.STRING,
     price: DataTypes.DOUBLE,
-    defaultValue: null
+    defaultValue: {
+      type : DataTypes.STRING,
+      allowNull : true,
+      default: null
+  },
   },
 	{
 	   underscored: true,

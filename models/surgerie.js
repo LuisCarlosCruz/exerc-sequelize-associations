@@ -3,7 +3,11 @@ const Surgerie = (sequelize, DataTypes) => {
     surgery_id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
     specialty: DataTypes.STRING,
     doctor: DataTypes.STRING,
-    defaultValue: null
+    defaultValue: {
+      type : DataTypes.STRING,
+      allowNull : true,
+      default: null
+  },
   },
 	{
 	   underscored: true,
